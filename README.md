@@ -11,6 +11,9 @@ start
 ```
 pip install -r requirements.txt
 ```
+```
+python main.py
+```
 
 Requests to the server:
 
