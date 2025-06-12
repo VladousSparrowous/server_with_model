@@ -7,7 +7,7 @@ Data Science & Machine Learning – Preprocessing, training and evaluating model
 
 DevOps/Backend – Implementing a lightweight service to expose the selected model via an HTTP API, allowing users to send feature inputs and receive predictions(using FastAPI).
 
-start
+start:
 ```
 pip install -r requirements.txt
 ```
@@ -27,7 +27,7 @@ curl -X 'GET' \
   -H 'accept: application/json' 
 ```
 
-response
+response:
 
 ```
 {
@@ -66,7 +66,7 @@ curl -X 'POST' \
 }'
 ```
 
-response
+response:
 
 ```
 {
